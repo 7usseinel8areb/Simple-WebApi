@@ -28,3 +28,4 @@ C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Persistance\obj\Debug\net8.0\DotNetCor
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Persistance\obj\Debug\net8.0\refint\DotNetCore.Persistance.dll
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Persistance\obj\Debug\net8.0\DotNetCore.Persistance.pdb
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Persistance\obj\Debug\net8.0\ref\DotNetCore.Persistance.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Persistance\obj\Debug\net8.0\DotNetCore.Persistance.sourcelink.json

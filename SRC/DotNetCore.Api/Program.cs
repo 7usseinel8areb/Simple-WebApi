@@ -1,6 +1,7 @@
 
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore.Persistance.Repositories;
+using DotNetCore_WebApi.Middlewares;
 
 namespace DotNetCore_WebApi
 {
@@ -34,6 +35,10 @@ namespace DotNetCore_WebApi
             app.UseAuthorization();
 
             //app.UseAuthentication();
+
+            //Custom Middleware
+            app.UseMiddleware<RateLimitingMiddleware>();
+            app.UseMiddleware<ProfilingMiddleware>();
 
             app.MapControllers();
 

@@ -20,3 +20,4 @@ C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Domain\obj\Debug\net8.0\DotNetCore.Dom
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Domain\obj\Debug\net8.0\refint\DotNetCore.Domain.dll
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Domain\obj\Debug\net8.0\DotNetCore.Domain.pdb
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Domain\obj\Debug\net8.0\ref\DotNetCore.Domain.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Domain\obj\Debug\net8.0\DotNetCore.Domain.sourcelink.json
