@@ -1,0 +1,11 @@
+C:\Ertaqy\DotNetCore.Application\bin\Debug\net8.0\DotNetCore.Application.deps.json
+C:\Ertaqy\DotNetCore.Application\bin\Debug\net8.0\DotNetCore.Application.dll
+C:\Ertaqy\DotNetCore.Application\bin\Debug\net8.0\DotNetCore.Application.pdb
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\DotNetCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\DotNetCore.Application.AssemblyInfoInputs.cache
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\DotNetCore.Application.AssemblyInfo.cs
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\DotNetCore.Application.csproj.CoreCompileInputs.cache
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\DotNetCore.Application.dll
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\refint\DotNetCore.Application.dll
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\DotNetCore.Application.pdb
+C:\Ertaqy\DotNetCore.Application\obj\Debug\net8.0\ref\DotNetCore.Application.dll
