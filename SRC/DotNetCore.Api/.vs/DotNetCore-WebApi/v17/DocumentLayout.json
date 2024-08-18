@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\filters\\logsensetiveactionattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:filters\\logsensetiveactionattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\filters\\logactivityfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:filters\\logactivityfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,34 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RateLimitingMiddleware.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\RateLimitingMiddleware.cs",
-              "RelativeDocumentMoniker": "Middlewares\\RateLimitingMiddleware.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\RateLimitingMiddleware.cs",
-              "RelativeToolTip": "Middlewares\\RateLimitingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T14:02:45.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T13:59:15.259Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -59,18 +45,79 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogSensetiveActionAttributeFilter.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogSensetiveActionAttributeFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\LogSensetiveActionAttributeFilter.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogSensetiveActionAttributeFilter.cs*",
+              "RelativeToolTip": "Filters\\LogSensetiveActionAttributeFilter.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T07:53:47.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogActivityFilter.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogActivityFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\LogActivityFilter.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogActivityFilter.cs",
+              "RelativeToolTip": "Filters\\LogActivityFilter.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAnwCwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:58:25.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "Controllers\\ProductController.cs*",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:50:49.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:59:15.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RateLimitingMiddleware.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\RateLimitingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\RateLimitingMiddleware.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\RateLimitingMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\RateLimitingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T14:02:45.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProfilingMiddleware.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\ProfilingMiddleware.cs",
               "RelativeDocumentMoniker": "Middlewares\\ProfilingMiddleware.cs",
               "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\ProfilingMiddleware.cs",
               "RelativeToolTip": "Middlewares\\ProfilingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABKAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAvwBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T13:46:11.547Z",
               "EditorCaption": ""

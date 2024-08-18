@@ -1,6 +1,7 @@
 
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore.Persistance.Repositories;
+using DotNetCore_WebApi.Filters;
 using DotNetCore_WebApi.Middlewares;
 
 namespace DotNetCore_WebApi
@@ -13,7 +14,11 @@ namespace DotNetCore_WebApi
             var connectionString = builder.Configuration.GetConnectionString("con");
             // Add services to the container.
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers(options =>
+            {
+                //Add Any Filter globaly at any controller
+                options.Filters.Add<LogActivityFilter>();
+            });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

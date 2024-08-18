@@ -1,5 +1,6 @@
 ﻿using DotNetCore.Domain.Models;
 using DotNetCore.Domain.RepositoriesInterface;
+using DotNetCore_WebApi.Filters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
@@ -31,6 +32,9 @@ namespace DotNetCore_WebApi.Controllers
         
         [HttpGet]
         [Route("GetAll")]
+        //Add Filter on one or many controllers or action
+        //Sensetive Action
+        [LogSensetiveActionAttributeFilter]
         public async Task<IActionResult> GeAlltProducts()
         {
             List<Product>? products = (await _productRepository.GetProductsAsync()).ToList();
