@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DotNetCore.Application\DotNetCore.Application.csproj" />
     <ProjectReference Include="..\DotNetCore.Domain\DotNetCore.Domain.csproj" />
     <ProjectReference Include="..\DotNetCore.Persistance\DotNetCore.Persistance.csproj" />
   </ItemGroup>

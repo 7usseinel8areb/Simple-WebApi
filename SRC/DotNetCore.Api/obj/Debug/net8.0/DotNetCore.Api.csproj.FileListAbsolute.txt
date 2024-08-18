@@ -84,3 +84,5 @@ C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\obj\Debug\net8.0\DotNetCore.Api.pd
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\obj\Debug\net8.0\DotNetCore.Api.genruntimeconfig.cache
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\obj\Debug\net8.0\ref\DotNetCore.Api.dll
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\config.json
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\DotNetCore.Application.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\DotNetCore.Application.pdb

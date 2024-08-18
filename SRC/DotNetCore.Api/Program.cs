@@ -1,4 +1,5 @@
 
+using DotNetCore.Application.Options;
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore.Persistance.Repositories;
 using DotNetCore_WebApi.Filters;
@@ -12,6 +13,24 @@ namespace DotNetCore_WebApi
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Configuration.AddJsonFile("config.json");
+
+            #region Options
+            //Get object From type AttachmentOptions
+            /*//1
+            var attachmentOptions = builder.Configuration.GetSection("Attachments")
+                .Get<AttachmentOptions>();
+            */
+            /*//2
+            AttachmentOptions attachmentOptions = new();
+            builder.Configuration.GetSection("Attachments").Bind(attachmentOptions);
+            */
+            //builder.Services.AddSingleton(attachmentOptions);
+
+            builder.Services.Configure<AttachmentOptions>(builder.Configuration.GetSection("Attachments"));
+
+            #endregion
+
+
             var connectionString = builder.Configuration.GetConnectionString("con");
             // Add services to the container.
 
@@ -24,6 +43,7 @@ namespace DotNetCore_WebApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            
             builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(connectionString));
             builder.Services.AddScoped<IConfigrationsRepository, ConfigurationsRepository>();

@@ -4,6 +4,71 @@
     "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj": {}
   },
   "projects": {
+    "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj",
+        "projectName": "DotNetCore.Application",
+        "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj",
+        "packagesPath": "C:\\Users\\HusseinElghareb\\.nuget\\packages\\",
+        "outputPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
+                "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -90,6 +155,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj": {
+                "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj"
+              },
               "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
                 "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj"
               }
@@ -112,6 +180,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
