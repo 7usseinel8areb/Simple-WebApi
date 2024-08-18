@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RCVmV8Mv10Q=",
+  "dgSpecHash": "JRuG9EUnBws=",
   "success": true,
   "projectFilePath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HusseinElghareb\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\HusseinElghareb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\HusseinElghareb\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\HusseinElghareb\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\HusseinElghareb\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\HusseinElghareb\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

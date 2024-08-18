@@ -11,6 +11,7 @@ namespace DotNetCore_WebApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Configuration.AddJsonFile("config.json");
             var connectionString = builder.Configuration.GetConnectionString("con");
             // Add services to the container.
 
@@ -25,6 +26,7 @@ namespace DotNetCore_WebApi
 
             builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(connectionString));
+            builder.Services.AddScoped<IConfigrationsRepository, ConfigurationsRepository>();
 
             var app = builder.Build();
 

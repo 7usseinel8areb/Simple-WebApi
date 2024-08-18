@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>DotNetCore_WebApi</RootNamespace>
+    <UserSecretsId>140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
