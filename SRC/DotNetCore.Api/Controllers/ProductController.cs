@@ -7,7 +7,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace DotNetCore_WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -19,8 +19,8 @@ namespace DotNetCore_WebApi.Controllers
         }
 
         [HttpGet]
-        [Route("GetSingle/{id:int}")]
-        public async Task<IActionResult> GetProduct(int id)
+        [Route("GetSingle/{key:int}")]
+        public async Task<IActionResult> GetProduct([FromRoute(Name = "Key")] int id)
         {
             Product? product = await _productRepository.GetProductByIdAsync(id);
 
@@ -45,7 +45,7 @@ namespace DotNetCore_WebApi.Controllers
 
         [HttpPost]
         [Route("Create")]
-        public async Task<IActionResult> CreateProduct(Product product)
+        public async Task<IActionResult> CreateProduct([FromQuery] Product product, [FromQuery] Product product2)
         {
             if (ModelState.IsValid)
             {

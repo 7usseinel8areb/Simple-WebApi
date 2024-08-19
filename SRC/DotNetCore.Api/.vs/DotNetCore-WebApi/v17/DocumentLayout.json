@@ -3,14 +3,26 @@
   "WorkspaceRootPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3459ED7D-DAA3-438C-A26D-AFF73F27B0CD}|..\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.persistance\\repositories\\configrationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{537384EC-4DFD-407F-B6CF-C6D1DB81FE40}|..\\DotNetCore.Application\\DotNetCore.Application.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.application\\options\\attachmentoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\filters\\logsensetiveactionattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:filters\\logsensetiveactionattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\dotnetcore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:dotnetcore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3459ED7D-DAA3-438C-A26D-AFF73F27B0CD}|..\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.persistance\\repositories\\configrationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537384EC-4DFD-407F-B6CF-C6D1DB81FE40}|..\\DotNetCore.Application\\DotNetCore.Application.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.application\\options\\attachmentoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -22,10 +34,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\dotnetcore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:dotnetcore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\middlewares\\profilingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:middlewares\\profilingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\filters\\logsensetiveactionattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:filters\\logsensetiveactionattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,94 +74,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AttachmentOptions.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Options\\AttachmentOptions.cs",
-              "RelativeDocumentMoniker": "..\\DotNetCore.Application\\Options\\AttachmentOptions.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Options\\AttachmentOptions.cs*",
-              "RelativeToolTip": "..\\DotNetCore.Application\\Options\\AttachmentOptions.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T12:54:30.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
-              "ToolTip": "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-18T09:47:47.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfigrationsRepository.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs*",
-              "RelativeToolTip": "..\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs*",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAACYAAAA8AAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "Controllers\\ProductController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T08:28:05.685Z",
+              "WhenOpened": "2024-08-18T06:50:49.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T13:59:15.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\appsettings.json*",
-              "RelativeToolTip": "appsettings.json*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-18T08:50:36.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConfigController.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ConfigController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConfigController.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ConfigController.cs",
-              "RelativeToolTip": "Controllers\\ConfigController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T08:22:28.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DotNetCore.Api",
+              "Title": "DotNetCore.Api.csproj",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\DotNetCore.Api.csproj",
               "RelativeDocumentMoniker": "DotNetCore.Api.csproj",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\DotNetCore.Api.csproj*",
-              "RelativeToolTip": "DotNetCore.Api.csproj*",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\DotNetCore.Api.csproj",
+              "RelativeToolTip": "DotNetCore.Api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-08-18T09:48:21.733Z",
@@ -169,7 +100,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogSensetiveActionAttributeFilter.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogSensetiveActionAttributeFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\LogSensetiveActionAttributeFilter.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogSensetiveActionAttributeFilter.cs",
+              "RelativeToolTip": "Filters\\LogSensetiveActionAttributeFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T07:53:47.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigrationsRepository.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs",
+              "RelativeToolTip": "..\\DotNetCore.Persistance\\Repositories\\ConfigrationsRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T08:28:05.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-18T08:50:36.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
+              "ToolTip": "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\HusseinElghareb\\AppData\\Roaming\\Microsoft\\UserSecrets\\140c4ab7-8f7f-4dc9-a8b2-58cc9c62717b\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-18T09:47:47.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:59:15.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttachmentOptions.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Options\\AttachmentOptions.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Application\\Options\\AttachmentOptions.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Options\\AttachmentOptions.cs",
+              "RelativeToolTip": "..\\DotNetCore.Application\\Options\\AttachmentOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T12:54:30.121Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ConfigController.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ConfigController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConfigController.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ConfigController.cs",
+              "RelativeToolTip": "Controllers\\ConfigController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T08:22:28.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IConfigrationsRepository.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\RepositoriesInterface\\IConfigrationsRepository.cs",
               "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\RepositoriesInterface\\IConfigrationsRepository.cs",
@@ -177,12 +194,11 @@
               "RelativeToolTip": "..\\DotNetCore.Domain\\RepositoriesInterface\\IConfigrationsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T08:28:43.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T08:28:43.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "config.json",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\config.json",
               "RelativeDocumentMoniker": "config.json",
@@ -190,25 +206,11 @@
               "RelativeToolTip": "config.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-18T09:08:38.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T09:08:38.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LogSensetiveActionAttributeFilter.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogSensetiveActionAttributeFilter.cs",
-              "RelativeDocumentMoniker": "Filters\\LogSensetiveActionAttributeFilter.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogSensetiveActionAttributeFilter.cs",
-              "RelativeToolTip": "Filters\\LogSensetiveActionAttributeFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T07:53:47.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LogActivityFilter.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\LogActivityFilter.cs",
               "RelativeDocumentMoniker": "Filters\\LogActivityFilter.cs",
@@ -221,20 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwCMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T06:50:49.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RateLimitingMiddleware.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\RateLimitingMiddleware.cs",
               "RelativeDocumentMoniker": "Middlewares\\RateLimitingMiddleware.cs",
@@ -242,12 +231,11 @@
               "RelativeToolTip": "Middlewares\\RateLimitingMiddleware.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAEwCUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T14:02:45.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T14:02:45.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ProfilingMiddleware.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Middlewares\\ProfilingMiddleware.cs",
               "RelativeDocumentMoniker": "Middlewares\\ProfilingMiddleware.cs",
@@ -255,8 +243,7 @@
               "RelativeToolTip": "Middlewares\\ProfilingMiddleware.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAvwBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T13:46:11.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T13:46:11.547Z"
             }
           ]
         }

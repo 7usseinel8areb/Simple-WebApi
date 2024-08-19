@@ -25,7 +25,10 @@ namespace DotNetCore_WebApi
             builder.Configuration.GetSection("Attachments").Bind(attachmentOptions);
             */
             //builder.Services.AddSingleton(attachmentOptions);
-
+            
+            //Options pattern
+            //Basic
+            //3
             builder.Services.Configure<AttachmentOptions>(builder.Configuration.GetSection("Attachments"));
 
             #endregion
