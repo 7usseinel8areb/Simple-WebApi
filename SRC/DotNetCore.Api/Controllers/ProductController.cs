@@ -1,9 +1,12 @@
 ﻿using DotNetCore.Domain.Models;
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore_WebApi.Filters;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Claims;
 
 namespace DotNetCore_WebApi.Controllers
 {
@@ -35,8 +38,18 @@ namespace DotNetCore_WebApi.Controllers
         //Add Filter on one or many controllers or action
         //Sensetive Action
         [LogSensetiveActionAttributeFilter]
-        public async Task<IActionResult> GeAlltProducts()
+        [Authorize]
+        //[AllowAnonymous] => This if the whole controller have [Authorize] attribute and we want to remove the validation from this action
+        public async Task<IActionResult> GetAllProducts()
         {
+            var userName = User.Identity.Name;
+
+
+            /*//To get the claims you have added
+            var userId = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            Debug.WriteLine($"{userId}:{userName}");*/
+
             List<Product>? products = (await _productRepository.GetProductsAsync()).ToList();
 
             return StatusCode(StatusCodes.Status200OK, products);
@@ -45,7 +58,7 @@ namespace DotNetCore_WebApi.Controllers
 
         [HttpPost]
         [Route("Create")]
-        public async Task<IActionResult> CreateProduct([FromQuery] Product product, [FromQuery] Product product2)
+        public async Task<IActionResult> CreateProduct(/*[FromQuery] */Product product/*, [FromQuery] Product product2*/)
         {
             if (ModelState.IsValid)
             {

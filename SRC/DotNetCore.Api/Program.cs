@@ -1,9 +1,11 @@
 
+using DotNetCore.Application.Handlers;
 using DotNetCore.Application.Options;
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore.Persistance.Repositories;
 using DotNetCore_WebApi.Filters;
 using DotNetCore_WebApi.Middlewares;
+using Microsoft.AspNetCore.Authentication;
 
 namespace DotNetCore_WebApi
 {
@@ -50,6 +52,9 @@ namespace DotNetCore_WebApi
             builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(connectionString));
             builder.Services.AddScoped<IConfigrationsRepository, ConfigurationsRepository>();
+
+            builder.Services.AddAuthentication()
+                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
 
             var app = builder.Build();
 
