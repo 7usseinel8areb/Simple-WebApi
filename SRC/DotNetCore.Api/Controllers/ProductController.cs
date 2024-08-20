@@ -38,11 +38,11 @@ namespace DotNetCore_WebApi.Controllers
         //Add Filter on one or many controllers or action
         //Sensetive Action
         [LogSensetiveActionAttributeFilter]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         //[AllowAnonymous] => This if the whole controller have [Authorize] attribute and we want to remove the validation from this action
         public async Task<IActionResult> GetAllProducts()
         {
-            var userName = User.Identity.Name;
+            var userName = User.Identity?.Name;
 
 
             /*//To get the claims you have added

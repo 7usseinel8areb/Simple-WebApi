@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Encodings.Web;
@@ -25,12 +26,13 @@ namespace DotNetCore.Application.Handlers
             if (!Request.Headers.ContainsKey("Authorization"))
                 return Task.FromResult(AuthenticateResult.NoResult());
 
-            var authHeader = Request.Headers["Authorization"].ToString();
-
-            if (!(authHeader.StartsWith("Basic",StringComparison.OrdinalIgnoreCase)))
+            if(!AuthenticationHeaderValue.TryParse(Request.Headers["Authorization"],out var authHeader))
                 return Task.FromResult(AuthenticateResult.Fail("Unkown scheme"));
 
-            var encodedCredentials = authHeader["Basic ".Length..];
+            if(!authHeader.Scheme.Equals("Basic", StringComparison.OrdinalIgnoreCase))
+                return Task.FromResult(AuthenticateResult.Fail("Unkown scheme"));
+
+            var encodedCredentials = authHeader.Parameter;
             string decodedCredentials;
             try
             {

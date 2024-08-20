@@ -87,3 +87,11 @@ C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\config.json
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\DotNetCore.Application.dll
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\DotNetCore.Application.pdb
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

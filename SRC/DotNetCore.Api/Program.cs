@@ -6,7 +6,9 @@ using DotNetCore.Persistance.Repositories;
 using DotNetCore_WebApi.Filters;
 using DotNetCore_WebApi.Middlewares;
 using Microsoft.AspNetCore.Authentication;
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 namespace DotNetCore_WebApi
 {
     public class Program
@@ -52,9 +54,36 @@ namespace DotNetCore_WebApi
             builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(connectionString));
             builder.Services.AddScoped<IConfigrationsRepository, ConfigurationsRepository>();
+            builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+            #region Basic Authentication
+            /*builder.Services.AddAuthentication()
+                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);*/
+            #endregion
 
+            var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
+            builder.Services.AddSingleton(jwtOptions);
+            
             builder.Services.AddAuthentication()
-                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
+                .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme,options =>
+                {
+                    //if the token is valid it will be saved at AuthenticationProerties to be accessed from the request
+                    options.SaveToken = true;
+
+
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidIssuer = jwtOptions.Issuer,
+
+                        ValidateAudience = true,
+                        ValidAudience = jwtOptions.Audience,
+
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = 
+                            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SigningKey))
+                    };
+
+                });
 
             var app = builder.Build();
 
