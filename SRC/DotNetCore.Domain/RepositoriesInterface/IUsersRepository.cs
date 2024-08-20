@@ -1,4 +1,5 @@
-﻿using DotNetCore.Domain.Models;
+﻿using DotNetCore.Domain.Enums;
+using DotNetCore.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace DotNetCore.Domain.RepositoriesInterface
 {
     public interface IUsersRepository
     {
-        Task<string> CreateToken(AuthenticationRequest authRequest);
+        Task<string?> CreateToken(AuthenticationRequest authRequest);
+
+        Task<bool> CheckUserPermission(int userId, Permession permession);
     }
 }

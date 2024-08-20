@@ -16,6 +16,8 @@ namespace DotNetCore_WebApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
+            
             builder.Configuration.AddJsonFile("config.json");
 
             #region Options
@@ -45,6 +47,7 @@ namespace DotNetCore_WebApi
             {
                 //Add Any Filter globaly at any controller
                 options.Filters.Add<LogActivityFilter>();
+                options.Filters.Add<PermessionBasedAuthorizationFilter>();
             });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -53,16 +56,20 @@ namespace DotNetCore_WebApi
             
             builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(connectionString));
+
             builder.Services.AddScoped<IConfigrationsRepository, ConfigurationsRepository>();
-            builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+            
+            builder.Services.AddScoped<IUsersRepository, UsersRepository>(provider =>
+                new UsersRepository(jwtOptions, connectionString));
+
+            builder.Services.AddSingleton(jwtOptions);
+
             #region Basic Authentication
             /*builder.Services.AddAuthentication()
                 .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);*/
             #endregion
 
-            var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
-            builder.Services.AddSingleton(jwtOptions);
-            
+
             builder.Services.AddAuthentication()
                 .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme,options =>
                 {

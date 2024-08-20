@@ -1,4 +1,6 @@
-﻿using DotNetCore.Domain.Models;
+﻿using DotNetCore.Application.Validators;
+using DotNetCore.Domain.Enums;
+using DotNetCore.Domain.Models;
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore_WebApi.Filters;
 using Microsoft.AspNetCore.Authorization;
@@ -23,6 +25,7 @@ namespace DotNetCore_WebApi.Controllers
 
         [HttpGet]
         [Route("GetSingle/{key:int}")]
+        
         public async Task<IActionResult> GetProduct([FromRoute(Name = "Key")] int id)
         {
             Product? product = await _productRepository.GetProductByIdAsync(id);
@@ -40,6 +43,7 @@ namespace DotNetCore_WebApi.Controllers
         [LogSensetiveActionAttributeFilter]
         [Authorize(Roles = "Admin")]
         //[AllowAnonymous] => This if the whole controller have [Authorize] attribute and we want to remove the validation from this action
+        [CheckPermission(Permession.ReadProduct)]
         public async Task<IActionResult> GetAllProducts()
         {
             var userName = User.Identity?.Name;

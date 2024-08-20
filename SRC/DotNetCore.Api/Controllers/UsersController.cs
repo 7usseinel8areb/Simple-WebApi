@@ -7,6 +7,7 @@ using System.Text;
 using System.Security.Claims;
 using DotNetCore.Domain.RepositoriesInterface;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DotNetCore_WebApi.Controllers
 {
@@ -16,9 +17,13 @@ namespace DotNetCore_WebApi.Controllers
     {
         [HttpPost]
         [Route("Auth")]
+        [AllowAnonymous]
         public async Task<IActionResult> AuthenticateUser(AuthenticationRequest authRequest)
         {
-            var accessToken = await _usersRepository.CreateToken(authRequest);
+            string? accessToken = await _usersRepository.CreateToken(authRequest);
+
+            if (accessToken == null) 
+                return StatusCode(StatusCodes.Status401Unauthorized,"Username or Password is not valid");
 
             return Ok(accessToken);
         }

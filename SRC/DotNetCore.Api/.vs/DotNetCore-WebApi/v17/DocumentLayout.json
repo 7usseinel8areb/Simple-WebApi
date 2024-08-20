@@ -3,18 +3,44 @@
   "WorkspaceRootPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\filters\\permessionbasedauthorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:filters\\permessionbasedauthorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3459ED7D-DAA3-438C-A26D-AFF73F27B0CD}|..\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.persistance\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{537384EC-4DFD-407F-B6CF-C6D1DB81FE40}|..\\DotNetCore.Application\\DotNetCore.Application.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.application\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537384EC-4DFD-407F-B6CF-C6D1DB81FE40}|..\\DotNetCore.Application\\DotNetCore.Application.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.application\\validators\\checkpermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C46B3-895C-4E0A-893A-13E877A35160}|..\\DotNetCore.Domain\\DotNetCore.Domain.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.domain\\enums\\permession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C46B3-895C-4E0A-893A-13E877A35160}|..\\DotNetCore.Domain\\DotNetCore.Domain.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.domain\\repositoriesinterface\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C46B3-895C-4E0A-893A-13E877A35160}|..\\DotNetCore.Domain\\DotNetCore.Domain.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.domain\\models\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093C46B3-895C-4E0A-893A-13E877A35160}|..\\DotNetCore.Domain\\DotNetCore.Domain.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3459ED7D-DAA3-438C-A26D-AFF73F27B0CD}|..\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.persistance\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537384EC-4DFD-407F-B6CF-C6D1DB81FE40}|..\\DotNetCore.Application\\DotNetCore.Application.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.application\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{093C46B3-895C-4E0A-893A-13E877A35160}|..\\DotNetCore.Domain\\DotNetCore.Domain.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.domain\\models\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -22,13 +48,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB04126E-CFF4-425F-A086-B55FFAC131C8}|DotNetCore.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093C46B3-895C-4E0A-893A-13E877A35160}|..\\DotNetCore.Domain\\DotNetCore.Domain.csproj|c:\\ertaqy\\dotnetcorewebapi\\src\\dotnetcore.domain\\repositoriesinterface\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +57,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T08:49:48.676Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -63,15 +69,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
-              "RelativeToolTip": "..\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAQAAAA",
+              "DocumentIndex": 5,
+              "Title": "Permession.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Enums\\Permession.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\Enums\\Permession.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Enums\\Permession.cs",
+              "RelativeToolTip": "..\\DotNetCore.Domain\\Enums\\Permession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T07:59:09.894Z",
+              "WhenOpened": "2024-08-20T09:11:41.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAawC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:49:48.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckPermissionAttribute.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Validators\\CheckPermissionAttribute.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Application\\Validators\\CheckPermissionAttribute.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Validators\\CheckPermissionAttribute.cs",
+              "RelativeToolTip": "..\\DotNetCore.Application\\Validators\\CheckPermissionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T11:35:29.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PermessionBasedAuthorizationFilter.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\PermessionBasedAuthorizationFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\PermessionBasedAuthorizationFilter.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Filters\\PermessionBasedAuthorizationFilter.cs",
+              "RelativeToolTip": "Filters\\PermessionBasedAuthorizationFilter.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T11:41:22.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:24:31.753Z",
               "EditorCaption": ""
             },
             {
@@ -80,16 +138,78 @@
               "Title": "UsersRepository.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\UsersRepository.cs",
               "RelativeDocumentMoniker": "..\\DotNetCore.Persistance\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "..\\DotNetCore.Persistance\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA1wDEAAAA5AAAA",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\UsersRepository.cs*",
+              "RelativeToolTip": "..\\DotNetCore.Persistance\\Repositories\\UsersRepository.cs*",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T07:58:31.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
+              "RelativeToolTip": "..\\DotNetCore.Domain\\RepositoriesInterface\\IUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:59:09.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADEAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T12:00:11.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Models\\UserPermission.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\Models\\UserPermission.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Models\\UserPermission.cs",
+              "RelativeToolTip": "..\\DotNetCore.Domain\\Models\\UserPermission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:08:42.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Models\\User.cs",
+              "RelativeToolTip": "..\\DotNetCore.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:08:25.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\DotNetCore.Persistance\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "..\\DotNetCore.Persistance\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:25:55.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AuthenticationRequest.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\Models\\AuthenticationRequest.cs",
               "RelativeDocumentMoniker": "..\\DotNetCore.Domain\\Models\\AuthenticationRequest.cs",
@@ -97,25 +217,11 @@
               "RelativeToolTip": "..\\DotNetCore.Domain\\Models\\AuthenticationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T07:26:42.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T07:26:42.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T07:24:31.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\Options\\JwtOptions.cs",
               "RelativeDocumentMoniker": "..\\DotNetCore.Application\\Options\\JwtOptions.cs",
@@ -123,12 +229,11 @@
               "RelativeToolTip": "..\\DotNetCore.Application\\Options\\JwtOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T12:14:30.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T12:14:30.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -136,21 +241,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T12:06:43.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowDgAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T12:00:11.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T12:06:43.866Z"
             }
           ]
         }

@@ -9,3 +9,15 @@ C:\Ertaqy\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.d
 C:\Ertaqy\DotNetCore.Infrastructure\obj\Debug\net8.0\refint\DotNetCore.Infrastructure.dll
 C:\Ertaqy\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.pdb
 C:\Ertaqy\DotNetCore.Infrastructure\obj\Debug\net8.0\ref\DotNetCore.Infrastructure.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\bin\Debug\net8.0\DotNetCore.Infrastructure.deps.json
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\bin\Debug\net8.0\DotNetCore.Infrastructure.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\bin\Debug\net8.0\DotNetCore.Infrastructure.pdb
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.AssemblyInfoInputs.cache
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.AssemblyInfo.cs
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.sourcelink.json
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\refint\DotNetCore.Infrastructure.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\DotNetCore.Infrastructure.pdb
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Infrastructure\obj\Debug\net8.0\ref\DotNetCore.Infrastructure.dll
