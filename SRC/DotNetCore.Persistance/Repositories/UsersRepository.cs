@@ -17,7 +17,6 @@ namespace DotNetCore.Persistance.Repositories
     {
         private readonly JwtOptions _jwtOptions;
 
-        // Constructor with Dependency Injection
         public UsersRepository(JwtOptions jwtOptions, string connectionString)
             : base(connectionString)
         {
