@@ -4,14 +4,14 @@
     "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Persistance\\DotNetCore.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj": {
+    "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj",
-        "projectName": "DotNetCore.Application",
-        "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj",
+        "projectUniqueName": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj",
+        "projectName": "DotNetCore.Domain",
+        "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj",
         "packagesPath": "C:\\Users\\HusseinElghareb\\.nuget\\packages\\",
-        "outputPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\obj\\",
+        "outputPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
-                "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -49,12 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -75,14 +65,14 @@
         }
       }
     },
-    "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
+    "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Infrastructure\\DotNetCore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj",
-        "projectName": "DotNetCore.Domain",
-        "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj",
+        "projectUniqueName": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Infrastructure\\DotNetCore.Infrastructure.csproj",
+        "projectName": "DotNetCore.Infrastructure",
+        "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Infrastructure\\DotNetCore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\HusseinElghareb\\.nuget\\packages\\",
-        "outputPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\obj\\",
+        "outputPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HusseinElghareb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,11 +151,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj": {
-                "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Application\\DotNetCore.Application.csproj"
-              },
               "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj": {
                 "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Domain\\DotNetCore.Domain.csproj"
+              },
+              "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Infrastructure\\DotNetCore.Infrastructure.csproj": {
+                "projectPath": "C:\\Ertaqy\\DotNetCoreWebApi\\SRC\\DotNetCore.Infrastructure\\DotNetCore.Infrastructure.csproj"
               }
             }
           }

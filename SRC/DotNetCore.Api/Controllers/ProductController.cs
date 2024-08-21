@@ -25,7 +25,7 @@ namespace DotNetCore_WebApi.Controllers
 
         [HttpGet]
         [Route("GetSingle/{key:int}")]
-        
+        [Authorize(Roles = nameof(SystemUsers.HR))]        
         public async Task<IActionResult> GetProduct([FromRoute(Name = "Key")] int id)
         {
             Product? product = await _productRepository.GetProductByIdAsync(id);

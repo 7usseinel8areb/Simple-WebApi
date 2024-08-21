@@ -76,7 +76,8 @@ namespace DotNetCore.Persistance.Repositories
                         new Claim(ClaimTypes.NameIdentifier,user.Id.ToString()),
                         new Claim(ClaimTypes.Name, user.Name),
                         new Claim(ClaimTypes.Email, "halghryb287@gmail.com"),
-                        new Claim(ClaimTypes.Role, "Admin")
+                        new Claim(ClaimTypes.Role, "Admin"),
+                        new Claim(ClaimTypes.Role, SystemUsers.SuperAdmin.ToString())
                     }
                 )
             };
