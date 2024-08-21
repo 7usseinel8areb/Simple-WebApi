@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCore.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47289dd3d3fb5350d19cc99d53194dac54358ff0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4d14f25aa47e56e9459df9df4a7caa702bda05b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetCore.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetCore.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

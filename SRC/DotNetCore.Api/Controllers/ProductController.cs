@@ -41,9 +41,12 @@ namespace DotNetCore_WebApi.Controllers
         //Add Filter on one or many controllers or action
         //Sensetive Action
         [LogSensetiveActionAttributeFilter]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = nameof(SystemUsers.Admin))]
+        //[Authorize(Roles = nameof(SystemUsers.SuperAdmin))]//Will Not be authorized if it need the Role to be Super Admin as configure at Program.cs
         //[AllowAnonymous] => This if the whole controller have [Authorize] attribute and we want to remove the validation from this action
         [CheckPermission(Permession.ReadProduct)]
+        //[Authorize(Policy = nameof(Policies.Gender))]
+        [Authorize(Policy = nameof(Policies.SuperAdminOrGender))]
         public async Task<IActionResult> GetAllProducts()
         {
             var userName = User.Identity?.Name;
@@ -62,6 +65,7 @@ namespace DotNetCore_WebApi.Controllers
 
         [HttpPost]
         [Route("Create")]
+        [Authorize(Policy = nameof(Policies.Adult))]
         public async Task<IActionResult> CreateProduct(/*[FromQuery] */Product product/*, [FromQuery] Product product2*/)
         {
             if (ModelState.IsValid)

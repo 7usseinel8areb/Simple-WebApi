@@ -1,10 +1,15 @@
+using DotNetCore.Application.Handlers;
+using DotNetCore.Application.Validators;
+using DotNetCore.Domain.Enums;
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore.Infrastructure.Options;
 using DotNetCore.Persistance.Repositories;
 using DotNetCore_WebApi.Filters;
 using DotNetCore_WebApi.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using System.Text;
 namespace DotNetCore_WebApi
 {
@@ -61,6 +66,7 @@ namespace DotNetCore_WebApi
                 new UsersRepository(jwtOptions, connectionString));
 
             builder.Services.AddSingleton(jwtOptions);
+            builder.Services.AddSingleton<IAuthorizationHandler, AdultAithorizationHandler>();
             #endregion
 
             #region Basic Authentication
@@ -90,6 +96,54 @@ namespace DotNetCore_WebApi
                     };
 
                 });
+            #endregion
+
+            #region Authorization & Policies
+
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy(Policies.SuperAdminsOnly.ToString(), builder =>
+                {
+                    builder.RequireRole(SystemUsers.SuperAdmin.ToString());
+
+                    //This means that the user should have any of this roles
+                    /*builder.RequireRole(SystemUsers.SuperAdmin.ToString(),
+                        SystemUsers.Admin.ToString(),
+                        SystemUsers.HR.ToString());*/
+                });
+
+
+                options.AddPolicy(Policies.Gender.ToString(), policy =>
+                {
+                    policy.RequireClaim("Gender", "Female");
+                    //builder.RequireClaim("Gender", "Male","Female");
+                });
+
+                options.AddPolicy(nameof(Policies.SuperAdminOrGender), policy =>
+                {
+                    policy.RequireAssertion(context =>
+                        context.User.HasClaim(c => c.Type == "Female")||
+                        context.User.IsInRole(nameof(SystemUsers.SuperAdmin))
+                    );
+                });
+
+                /*options.AddPolicy(nameof(Policies.Adult), policy =>
+                {
+                    policy.RequireAssertion(context =>
+                    {
+                        DateTime dbo = DateTime.Parse(context.User.FindFirstValue("Date-Of-Birth"));
+                        return DateTime.Today.Year - dbo.Year >= 18;
+                        
+                    });
+                });*/
+
+                //The same
+                options.AddPolicy(nameof(Policies.Adult), policy =>
+                {
+                    policy.AddRequirements(new AdultRequirment());
+                });
+            });
+
             #endregion
 
             var app = builder.Build();
