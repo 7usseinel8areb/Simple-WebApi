@@ -401,10 +401,15 @@
           "DotNetCore.Domain.dll": {}
         }
       },
+      "DotNetCore.Infrastructure/1.0.0": {
+        "runtime": {
+          "DotNetCore.Infrastructure.dll": {}
+        }
+      },
       "DotNetCore.Persistance/1.0.0": {
         "dependencies": {
-          "DotNetCore.Application": "1.0.0",
           "DotNetCore.Domain": "1.0.0",
+          "DotNetCore.Infrastructure": "1.0.0",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Options": "8.0.0",
           "Microsoft.IdentityModel.Tokens": "8.0.0",
@@ -800,6 +805,11 @@
       "sha512": ""
     },
     "DotNetCore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetCore.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

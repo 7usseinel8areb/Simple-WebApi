@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DotNetCore.Application.Options
-{
+namespace DotNetCore.Infrastructure.Options 
+{ 
     public class JwtOptions
     {
         public string Issuer { get; set; }

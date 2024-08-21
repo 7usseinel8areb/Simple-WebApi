@@ -1,4 +1,4 @@
-﻿using DotNetCore.Application.Options;
+﻿using DotNetCore.Infrastructure.Options;
 using DotNetCore.Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

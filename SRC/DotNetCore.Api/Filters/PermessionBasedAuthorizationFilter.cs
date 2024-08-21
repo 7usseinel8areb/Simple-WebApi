@@ -10,7 +10,7 @@ namespace DotNetCore_WebApi.Filters
     {
         public async void OnAuthorization(AuthorizationFilterContext context)
         {
-            var attribute =(CheckPermissionAttribute)context.ActionDescriptor.EndpointMetadata
+            var attribute =(CheckPermissionAttribute?)context.ActionDescriptor.EndpointMetadata
                 .FirstOrDefault(att => att is CheckPermissionAttribute);
 
             if(attribute != null)

@@ -1,4 +1,4 @@
-﻿using DotNetCore.Application.Options;
+﻿using DotNetCore.Infrastructure.Options;
 using DotNetCore.Domain.RepositoriesInterface;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;

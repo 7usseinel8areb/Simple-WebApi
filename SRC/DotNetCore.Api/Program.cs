@@ -1,6 +1,6 @@
 
 using DotNetCore.Application.Handlers;
-using DotNetCore.Application.Options;
+using DotNetCore.Infrastructure.Options;
 using DotNetCore.Domain.RepositoriesInterface;
 using DotNetCore.Persistance.Repositories;
 using DotNetCore_WebApi.Filters;

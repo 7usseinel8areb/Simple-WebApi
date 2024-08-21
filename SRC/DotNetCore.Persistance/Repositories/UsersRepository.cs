@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using DotNetCore.Application.Options;
+using DotNetCore.Infrastructure.Options;
 using DotNetCore.Domain.Models;
 using DotNetCore.Domain.RepositoriesInterface;
 using Microsoft.IdentityModel.Tokens;

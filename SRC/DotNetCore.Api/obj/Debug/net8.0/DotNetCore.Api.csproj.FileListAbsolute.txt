@@ -95,3 +95,5 @@ C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.Identit
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\DotNetCore.Infrastructure.dll
+C:\Ertaqy\DotNetCoreWebApi\SRC\DotNetCore.Api\bin\Debug\net8.0\DotNetCore.Infrastructure.pdb
