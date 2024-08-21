@@ -1,11 +1,8 @@
-
-using DotNetCore.Application.Handlers;
-using DotNetCore.Infrastructure.Options;
 using DotNetCore.Domain.RepositoriesInterface;
+using DotNetCore.Infrastructure.Options;
 using DotNetCore.Persistance.Repositories;
 using DotNetCore_WebApi.Filters;
 using DotNetCore_WebApi.Middlewares;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -17,7 +14,8 @@ namespace DotNetCore_WebApi
         {
             var builder = WebApplication.CreateBuilder(args);
             var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
-            
+            var connectionString = builder.Configuration.GetConnectionString("con");
+
             builder.Configuration.AddJsonFile("config.json");
 
             #region Options
@@ -39,21 +37,21 @@ namespace DotNetCore_WebApi
 
             #endregion
 
-
-            var connectionString = builder.Configuration.GetConnectionString("con");
             // Add services to the container.
 
             builder.Services.AddControllers(options =>
             {
+                #region Filters
                 //Add Any Filter globaly at any controller
                 options.Filters.Add<LogActivityFilter>();
                 options.Filters.Add<PermessionBasedAuthorizationFilter>();
+                #endregion
             });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            
+            #region injection
             builder.Services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(connectionString));
 
@@ -63,13 +61,14 @@ namespace DotNetCore_WebApi
                 new UsersRepository(jwtOptions, connectionString));
 
             builder.Services.AddSingleton(jwtOptions);
+            #endregion
 
             #region Basic Authentication
             /*builder.Services.AddAuthentication()
                 .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);*/
             #endregion
 
-
+            #region Bearer Authentication
             builder.Services.AddAuthentication()
                 .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme,options =>
                 {
@@ -91,6 +90,7 @@ namespace DotNetCore_WebApi
                     };
 
                 });
+            #endregion
 
             var app = builder.Build();
 
@@ -107,9 +107,10 @@ namespace DotNetCore_WebApi
 
             //app.UseAuthentication();
 
-            //Custom Middleware
+            #region Custom Middleware
             app.UseMiddleware<RateLimitingMiddleware>();
             app.UseMiddleware<ProfilingMiddleware>();
+            #endregion
 
             app.MapControllers();
 
